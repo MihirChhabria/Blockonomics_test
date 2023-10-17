@@ -1,0 +1,17 @@
+.body{
+  background-color: #081e45;
+}
+.card-container {
+  width: 80%;
+  margin: 60px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 8px 15px 0 rgb(0, 0, 0);
+  background-color: #e5e7eb;
+} 
+.card-heading {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(10, 120, 10);
+  font-family: 'Roboto Condensed', sans-serif;
+}
