@@ -1,4 +1,3 @@
-### Screenshot of the web page
+### First look:
 
-
-![WhatsApp Image 2023-10-17 at 23 31 15](https://github.com/MihirChhabria/Blockonomics_test/assets/67017533/d0a2e7ff-b013-462f-9fe6-8003fc4ca069)
+![image](https://github.com/MihirChhabria/Blockonomics_test/assets/67017533/f8899746-aee4-46af-918c-c9b392ae1447)
