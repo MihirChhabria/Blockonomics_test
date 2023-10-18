@@ -1,17 +1,71 @@
-.body{
-  background-color: #081e45;
-}
 .card-container {
-  width: 80%;
-  margin: 60px auto;
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto;
   padding: 20px;
-  border: 1px solid #ccc;
-  box-shadow: 0 8px 15px 0 rgb(0, 0, 0);
-  background-color: #e5e7eb;
-} 
-.card-heading {
-  font-size: 24px;
-  text-align: center;
-  color: rgb(10, 120, 10);
-  font-family: 'Roboto Condensed', sans-serif;
+  background-color: hsla(220, 100%, 99%, 0.959);; /* Adjust the background color as needed */
 }
+
+.card-scroll-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between cards as needed */
+}
+
+.card-heading {
+  font-size: 32px;
+}
+.card {
+  width: 300px; /* Adjust the card width as needed */
+  padding: 32px;
+  /* border: 1px solid #ddd; 
+  border-radius: 5px;
+  background-color: white; 
+  box-shadow: 0 6px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.glassmorphism-card{
+  background: rgba(0, 0, 0, 0.018);
+  border-radius: 10px;
+  padding:20px;
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.057);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.279);
+  color: #333;
+}
+
+/* .App{
+  background-color: rgb(194, 210, 247);
+} */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #5b29ab; /* Adjust the background color as needed */
+  color: white; /* Text color */
+}
+
+.navbar-title {
+  font-size: 26px;
+  color: #fff; 
+  margin: 15px;
+}
+
+.newsletter-button {
+  background-color: rgb(227, 227, 34);
+  color: rgb(10, 8, 8);
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter-button:hover {
+  background-color: #ffcc00;
+}
+
+
+

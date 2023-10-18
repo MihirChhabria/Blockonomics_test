@@ -19,15 +19,15 @@ function SummaryCard() {
   return (
     <div className="card-container">
       <h1 className="card-heading">Hacker News Top 10 Stories</h1>
-      {loading ? (
-        <p>Loading...</p>
-      ) : (
-        <ul>
-          {topStories.map(newsId => (
+      <div className="card-scroll-container">
+        {loading ? (
+          <p>Loading...</p>
+        ) : (
+          topStories.map(newsId => (
             <Utils key={newsId} newsId={newsId} />
-          ))}
-        </ul>
-      )}
+          ))
+        )}
+      </div>
     </div>
   );
 }
